@@ -32,4 +32,4 @@ jobs:
         with:
           context: ${{github.workspace}}
           push: true
-          tags: 998244353/portable-judge:latest
+          tags: 998244353/portable-judge-base:latest
