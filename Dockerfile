@@ -16,6 +16,6 @@ MAINTAINER Shiroha "keqing.hu@icloud.com"
 RUN \
   apt update && \
   apt -y upgrade && \
-  apt -y install gcc-8 g++-8
+  apt -y install gcc-9 g++-9
 
 CMD bash
