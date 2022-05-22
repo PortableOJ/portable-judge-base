@@ -16,6 +16,6 @@ MAINTAINER Shiroha "keqing.hu@icloud.com"
 RUN \
   apt update && \
   apt -y upgrade && \
-  apt -y install gcc-9 g++-9
+  apt -y install gcc=4:9.3.0-1ubuntu2 g++=4:9.3.0-1ubuntu2
 
 CMD bash
