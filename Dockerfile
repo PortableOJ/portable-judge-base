@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 MAINTAINER Shiroha "keqing.hu@icloud.com"
 
 #RUN \
@@ -16,8 +16,6 @@ MAINTAINER Shiroha "keqing.hu@icloud.com"
 RUN \
   apt update && \
   apt -y upgrade && \
-  apt -y install gcc-8 g++-8 && \
-  ln /usr/bin/gcc-8 /usr/bin/gcc && \
-  ln /usr/bin/g++-8 /usr/bin/g++
+  apt -y install gcc g++
 
 CMD bash
